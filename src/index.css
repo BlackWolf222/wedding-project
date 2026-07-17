@@ -321,6 +321,14 @@ p {
   font-weight: 400;
 }
 
+.hero__address {
+  margin-top: 0.35rem;
+  font-size: 0.82rem;
+  letter-spacing: 0.12em;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.85);
+}
+
 .countdown {
   display: flex;
   flex-wrap: wrap;

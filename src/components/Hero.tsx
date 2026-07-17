@@ -37,6 +37,7 @@ export function Hero() {
 
         <p className="hero__date">{couple.dateLong}</p>
         <p className="hero__venue">{couple.venue}</p>
+        <p className="hero__address">{couple.venueAddress}</p>
         <Countdown />
       </div>
 

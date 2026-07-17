@@ -7,7 +7,8 @@ export const couple = {
   date: '2026. augusztus 29.',
   dateLong: '2026. augusztus 29. · szombat',
   year: '2026',
-  venue: 'Bátaapáti, Deák Ferenc utca 1. · Naspolya Panzió',
+  venue: 'Naspolya Panzió',
+  venueAddress: 'Bátaapáti, Deák Ferenc utca 1.',
   venueShort: 'Naspolya Panzió',
   /** Local time: 2026-08-29 17:00 */
   countdownTarget: new Date(2026, 7, 29, 17, 0, 0),
