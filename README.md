@@ -11,9 +11,10 @@ npm run dev
 
 ## GitHub Pages
 
-A `main` branchre push után a GitHub Actions workflow automatikusan deployol.
+A `main` branchre push után a workflow a `gh-pages` branchre publishol.
 
-1. Repo → **Settings → Pages** → Source: **GitHub Actions**
+1. Repo → **Settings → Pages** → Source: **Deploy from a branch** → Branch: `gh-pages` / `/ (root)` → Save  
+   (első alkalommal a workflow lefutása után jelenik meg a `gh-pages` branch)
 2. **Settings → Secrets and variables → Actions** → secret: `VITE_GOOGLE_SCRIPT_URL` (ugyanaz, mint a `.env`-ben)
 3. Élő oldal: https://blackwolf222.github.io/wedding-project/
 
